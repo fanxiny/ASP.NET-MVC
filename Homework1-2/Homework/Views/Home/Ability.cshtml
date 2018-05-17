@@ -1,0 +1,86 @@
+﻿
+@{
+    ViewBag.Title = "Ability";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head><!--使用内部样式表引入CSS-->
+    <style>
+        #header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        #nav {
+            line-height: 30px;
+            background-color: #eeeeee;
+            height: 600px;
+            width: 100px;
+            float: left;
+            padding: 5px;
+        }
+
+        #section {
+            width: 350px;
+            float: left;
+            padding: 10px;
+        }
+
+        #footer {
+            background-color: black;
+            color: white;
+            clear: both;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>职业技能</h1>
+
+    </div>
+
+    <div id="nav">
+        IT技能<br />
+        运维经历<br />
+        其它经历<br />
+    </div>
+
+    <div id="section">
+        <h2>IT技能</h2>
+        <hr/>
+        <ul>
+            <li>操作系统：Linux </li>
+            <li>服务器：HTTP、MONITER、FTP 搭建及优化</li>
+            <li>脚本语言：bash shell </li>
+            <li>了解基本的系统安全、网络安全、WEB安全的攻击与防御 </li>
+        </ul>
+        <h2> 通用技能</h2>
+        <hr />
+        <ul>
+            <li>通过英语6级能力测试，托福90分</li>
+            <li>普通话等级考试二级甲等</li>
+            <li>通过计算机二级C </li>
+        </ul>
+        
+    </div>
+
+    <div id="footer">
+        <p>
+            <a class="btn btn-default" href="~/Home/Experience">实习经历 &raquo;</a>
+            <a class="btn btn-default" href="~/Home/Background">教育背景 &raquo;</a>
+            <a class="btn btn-default" href="~/Home">返回主页 &raquo;</a>
+        </p>
+    </div>
+
+</body>
+</html>
+
+
